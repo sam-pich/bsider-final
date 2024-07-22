@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar/Navbar';
+import CustomNavbar from './Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Home/home';
@@ -15,8 +15,9 @@ function App() {
     return (
         <>
             <Router>
-                <Navbar/>
+                <CustomNavbar />
                 <Routes>
+                    <Route path="/" element={<Home />} />
                     <Route path="/home" element={<Home />} />
                     <Route path="/explore" element={<Explore />} />
                     <Route path="/placeholder" element={<Placeholder />} />
@@ -24,7 +25,6 @@ function App() {
                     <Route path="/charts" element={<Charts />} />
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/login" element={<Login />} />
-
                 </Routes>
             </Router>
         </>

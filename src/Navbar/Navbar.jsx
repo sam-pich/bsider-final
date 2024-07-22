@@ -6,6 +6,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 
+
 function CustomNavbar() {
     return (
         <Navbar expand="lg" className="custom-gradient align-items-start">
