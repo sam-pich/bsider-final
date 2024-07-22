@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bsider-final/static/css/main.38bcbdc2.css",
-    "main.js": "/bsider-final/static/js/main.cbf090ca.js",
-    "static/js/453.bf65626e.chunk.js": "/bsider-final/static/js/453.bf65626e.chunk.js",
-    "index.html": "/bsider-final/index.html",
-    "main.38bcbdc2.css.map": "/bsider-final/static/css/main.38bcbdc2.css.map",
-    "main.cbf090ca.js.map": "/bsider-final/static/js/main.cbf090ca.js.map",
-    "453.bf65626e.chunk.js.map": "/bsider-final/static/js/453.bf65626e.chunk.js.map"
+    "main.css": "/bsider-final/home/static/css/main.38bcbdc2.css",
+    "main.js": "/bsider-final/home/static/js/main.edd9d240.js",
+    "static/js/453.bf65626e.chunk.js": "/bsider-final/home/static/js/453.bf65626e.chunk.js",
+    "index.html": "/bsider-final/home/index.html",
+    "main.38bcbdc2.css.map": "/bsider-final/home/static/css/main.38bcbdc2.css.map",
+    "main.edd9d240.js.map": "/bsider-final/home/static/js/main.edd9d240.js.map",
+    "453.bf65626e.chunk.js.map": "/bsider-final/home/static/js/453.bf65626e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38bcbdc2.css",
-    "static/js/main.cbf090ca.js"
+    "static/js/main.edd9d240.js"
   ]
 }
