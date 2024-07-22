@@ -10,7 +10,7 @@ function CustomNavbar() {
     return (
         <Navbar expand="lg" className="custom-gradient align-items-start">
             <Container fluid>
-                <Navbar.Brand href="/" className="text-white fw-bolder fs-2">
+                <Navbar.Brand href="/home" className="text-white fw-bolder fs-2">
                     <span style={{fontWeight: 'bolder' }}>b-sider</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarText" />
