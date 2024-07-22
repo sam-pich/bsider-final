@@ -10,8 +10,12 @@ function CustomNavbar() {
     return (
         <Navbar expand="lg" className="custom-gradient align-items-start">
             <Container fluid>
-                <Navbar.Brand href="/home" className="text-white fw-bolder fs-2">
-                    <span style={{fontWeight: 'bolder' }}>b-sider</span>
+                <Navbar.Brand className="text-white fw-bolder fs-2">
+                    <LinkContainer to="/home">
+                        <Nav.Link>
+                            b-sider
+                        </Nav.Link>
+                    </LinkContainer>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarText" />
                 <Navbar.Collapse id="navbarText" className="justify-content-end">

@@ -10,6 +10,7 @@ import Charts from "./Charts/charts";
 import Signup from "./signup/signup";
 import Login from "./login/login";
 
+
 function App() {
     return (
         <>

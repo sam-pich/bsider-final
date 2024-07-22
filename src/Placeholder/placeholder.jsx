@@ -68,40 +68,40 @@ function Placeholder() {
                     <Row>
                         <div className="image-grid-container">
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                             <Link to="/review" className="image-grid-item">
-                                <Image src={"/assets/saturday.jpeg"} fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} fluid />
                             </Link>
                         </div>
                     </Row>
@@ -111,18 +111,18 @@ function Placeholder() {
                     <Row><h2>artists for you</h2></Row>
                     <Row>
                         <div className="image-grid-container">
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
-                            <Image className="image-grid-item" src={"/assets/jimi.jpg"} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
+                            <Image className="image-grid-item" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid roundedCircle />
                         </div>
                     </Row>
                 </Col>

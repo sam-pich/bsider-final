@@ -10,27 +10,27 @@ function Charts() {
                     <h1 style={{marginBottom: '20px'}}>top artists</h1>
                     <ListGroup as="ol" className={"fw-bold"} numbered>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
@@ -40,27 +40,27 @@ function Charts() {
                     <h1 style={{marginBottom: '20px'}}>top albums</h1>
                     <ListGroup as="ol" className={"fw-bold"} numbered>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
@@ -70,27 +70,27 @@ function Charts() {
                     <h1 style={{marginBottom: '20px'}}>top songs</h1>
                     <ListGroup as="ol" className={"fw-bold"} numbered>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>
                         <ListGroup.Item className="d-flex align-items-center">
-                            <Image src="/assets/cryst.png" roundedCircle className="me-2"
+                            <Image src={`${process.env.PUBLIC_URL}/assets/cryst.png`} roundedCircle className="me-2"
                                    style={{width: '40px', height: '40px', marginLeft: '10px'}}/>
                             Placeholder
                         </ListGroup.Item>

@@ -20,7 +20,7 @@ function Explore() {
                     {/* bottom left */}
                     <Link to="/placeholder">
                         <div className="square">
-                            <Image className="dim" src="/assets/cryst.png" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/cryst.png`} fluid />
                             <h2>electronic</h2>
                         </div>
                     </Link>
@@ -29,39 +29,39 @@ function Explore() {
                     {/* bottom right */}
                     <div className="grid">
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/pinkfloyd.png" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/pinkfloyd.png`} fluid />
                             <h2>rock</h2>
                         </Link>
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/lana.jpeg" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/lana.jpeg`} fluid />
                             <h2>pop</h2>
                         </Link>
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/minor.jpg" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/minor.jpg`} fluid />
                             <h2>punk</h2>
                         </Link>
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/trick.jpeg" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/trick.jpeg`} fluid />
                             <h2>alternative</h2>
                         </Link>
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/clairo.png" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/clairo.png`} fluid />
                             <h2>indie</h2>
                         </Link>
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/metallica.jpeg" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/metallica.jpeg`} fluid />
                             <h2>metal</h2>
                         </Link>
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/denver.jpg" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/jimi.jpg`} fluid />
                             <h2>country</h2>
                         </Link>
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/lacy.jpeg" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/lacy.jpeg`} fluid />
                             <h2>r&b</h2>
                         </Link>
                         <Link to="/placeholder" className="grid-item">
-                            <Image className="dim" src="/assets/tpab.png" fluid />
+                            <Image className="dim" src={`${process.env.PUBLIC_URL}/assets/tpab.png`} fluid />
                             <h2>rap</h2>
                         </Link>
                     </div>

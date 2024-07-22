@@ -33,7 +33,7 @@ function Review() {
                     <Col md={5} className="outlines" style={{ marginLeft: '80px' }}>
                         <div className="d-flex flex-column align-items-start">
                             <Image
-                                src={'/assets/saturday.jpeg'}
+                                src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`}
                                 className="scaled-image"
                                 fluid
                             />
@@ -50,7 +50,7 @@ function Review() {
                         </Row>
                         <Row className="mt-3">
                             <Col md="4" className="outlines pfp-container d-flex align-items-start">
-                                <Image src={'/assets/pfp.png'} className="pfp" />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/pfp.png`} className="pfp" />
                             </Col>
                             <Col md="8" className="outlines" style={{ marginLeft: '10px' }}>
                                 <p style={{ color: "white", fontSize: "larger" }}>
@@ -60,7 +60,7 @@ function Review() {
                         </Row>
                         <Row className="mt-3">
                             <Col md="4" className="outlines pfp-container d-flex align-items-start">
-                                <Image src={'/assets/pfp.png'} className="pfp" />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/pfp.png`} className="pfp" />
                             </Col>
                             <Col md="8" className="outlines" style={{ marginLeft: '10px' }}>
                                 <p style={{ color: "white", fontSize: "larger" }}>
@@ -70,7 +70,7 @@ function Review() {
                         </Row>
                         <Row className="mt-3">
                             <Col md="4" className="outlines pfp-container d-flex align-items-start">
-                                <Image src={'/assets/pfp.png'} className="pfp" />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/pfp.png`} className="pfp" />
                             </Col>
                             <Col md="8" className="outlines" style={{ marginLeft: '10px' }}>
                                 <p style={{ color: "white", fontSize: "larger" }}>
@@ -88,7 +88,7 @@ function Review() {
                     <Modal.Body>
                         <Row>
                             <Col md={4} className="modal-image-container">
-                                <Image src={'/assets/saturday.jpeg'} className="modal-image" fluid />
+                                <Image src={`${process.env.PUBLIC_URL}/assets/saturday.jpeg`} className="modal-image" fluid />
                             </Col>
                             <Col md={8} style={{fontWeight:"bold"}}>
                                 <Form>
