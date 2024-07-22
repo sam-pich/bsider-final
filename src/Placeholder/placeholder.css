@@ -1,0 +1,46 @@
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+.definition{
+    color: white;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.subgenres {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.image-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: auto;
+}
+
+.image-grid-item {
+    width: 100%;
+    height: auto;
+}
+
+.image-grid-item:hover img {
+    opacity: 0.4;
+}
+
