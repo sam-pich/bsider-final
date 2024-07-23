@@ -1,7 +1,7 @@
 {
   "name": "bsider-final",
   "version": "0.1.0",
-  "homepage": "https://sam-pich.github.io/bsider-final",
+  "homepage": "https://sampich.com/bsider-final",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",

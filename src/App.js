@@ -10,24 +10,21 @@ import Charts from "./Charts/charts";
 import Signup from "./signup/signup";
 import Login from "./login/login";
 
-
 function App() {
     return (
-        <>
-            <Router>
-                <CustomNavbar />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/home" element={<Home />} />
-                    <Route path="/explore" element={<Explore />} />
-                    <Route path="/placeholder" element={<Placeholder />} />
-                    <Route path="/review" element={<Review />} />
-                    <Route path="/charts" element={<Charts />} />
-                    <Route path="/signup" element={<Signup />} />
-                    <Route path="/login" element={<Login />} />
-                </Routes>
-            </Router>
-        </>
+        <Router basename="/bsider-final">
+            <CustomNavbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/explore" element={<Explore />} />
+                <Route path="/placeholder" element={<Placeholder />} />
+                <Route path="/review" element={<Review />} />
+                <Route path="/charts" element={<Charts />} />
+                <Route path="/signup" element={<Signup />} />
+                <Route path="/login" element={<Login />} />
+            </Routes>
+        </Router>
     );
 }
 
